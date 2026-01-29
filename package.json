@@ -1,0 +1,34 @@
+{
+  "name": "echo-schedule-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Echo Schedule voice calendar assistant with Twilio integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "calendar",
+    "voice",
+    "assistant",
+    "twilio",
+    "google-calendar",
+    "singapore"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^118.0.0",
+    "twilio": "^5.3.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
